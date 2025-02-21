@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --myfont:"Rubik", serif;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(243, 224, 203);
+}
+.nav__image {
+    background-image: url(./image/sunset-silhouettes-trees-mountains-generative-ai.jpg);
+    background-size: cover;
+    border-bottom: 2px solid black;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    height: 45rem;
+    width: 100%;
+}
+.header__font {
+    font-size: 70px;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px black;
+}
+.header__text {
+        text-shadow: 2px 2px 5px black;
+        font-size: 20px;
+
+}
+.logo {
+    width: 3%;
+    height: 3%;
+}
+.card-img-top {
+   width: 3rem;
+   height: 3rem;
+}
+.card-body {
+    font-family: var(--myfont);
+}
+.card__icon {
+    top: -100px;
+    max-height: 15rem;
+    max-width: 18rem;
+}
+@media screen and (max-width: 576px) {
+    .nav1 {
+        display: none;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+}
